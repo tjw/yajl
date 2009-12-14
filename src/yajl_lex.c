@@ -475,7 +475,7 @@ yajl_lex_lex(yajl_lexer lexer, const unsigned char * jsonText,
              const unsigned char ** outBuf, size_t * outLen)
 {
     yajl_tok tok = yajl_tok_error;
-    unsigned char c;
+    char c;
     size_t startOffset = *offset;
 
     *outBuf = NULL;
